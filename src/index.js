@@ -1,6 +1,6 @@
 import "./styles.css";
 
-const walmartStr = "the force rocks";
+const forceStr = "the force rocks";
 
 export const charCounter = str => {
   let totals = {};
@@ -105,7 +105,7 @@ export const reverse2 = str => {
     .join("");
 };
 
-console.log(findCharacterCount(walmartStr));
+console.log(findCharacterCount(forceStr));
 // console.log(reverse2(walmartStr));
-console.log(charCounter(walmartStr));
+console.log(charCounter(forceStr));
 // console.log(strCounter(walmartStr));
